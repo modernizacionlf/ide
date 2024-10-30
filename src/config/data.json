@@ -85,7 +85,7 @@
       "seccion": "catastro",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/catastro/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/catastro/wms"
     },
     {
       "type": "wmslayer",
@@ -96,7 +96,7 @@
       "seccion": "censos-estadisticas",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/estadisticas_censos/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/estadisticas_censos/wms"
     },
     {
       "type": "wmslayer",
@@ -107,7 +107,7 @@
       "seccion": "cultura_turismo",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/cultura_turismo/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/cultura_turismo/wms"
     },
     {
       "type": "wmslayer",
@@ -118,7 +118,7 @@
       "seccion": "educacion-deportes",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/educacion-y-deportes/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/educacion_y_deportes/wms"
     },
     {
       "type": "wmslayer",
@@ -129,7 +129,7 @@
       "seccion": "geografia_ambiente",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/geografia_ambiente/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/geografia_ambiente/wms"
     },
     {
       "type": "wmslayer",
@@ -140,7 +140,7 @@
       "seccion": "obras_publicas_servicios",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/obras_publicas_servicios/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/obras_publicas_servicios/wms"
     },
     {
       "type": "wmslayer",
@@ -151,7 +151,7 @@
       "seccion": "organismos",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/organismos/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/organismos/wms"
     },
     {
       "type": "wmslayer",
@@ -162,7 +162,7 @@
       "seccion": "produccion_comercio",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/produccion_comercio/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/produccion_comercio/wms"
     },
     {
       "type": "wmslayer",
@@ -173,7 +173,7 @@
       "seccion": "salud_desarrollo_social",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/salud_desarrollo_social/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/salud_desarrollo_social/wms"
     },
     {
       "type": "wmslayer",
@@ -184,7 +184,7 @@
       "seccion": "seguridad_emergencias",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/seguridad_emergencias/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/seguridad_emergencias/wms"
     },
     {
       "type": "wmslayer",
@@ -195,32 +195,44 @@
       "seccion": "servicios_publicos",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/servicios_publicos/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/servicios_publicos/wms"
     },
     {
       "type": "wmslayer",
       "peso": 170,
+      "nombre": "Patrimonio",
+      "short_abstract": "Capas historicas del partido de Las Flores",
+      "class": "",
+      "seccion": "patrimonio",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://geo.lasflores.net.ar/geoserver/patrimonio/wms"
+    },
+    {
+      "type": "wmslayer",
+      "peso": 180,
       "nombre": "Planeamiento Urbano",
       "short_abstract": "Barrios, Bicisendas, Calles, Estacionamiento medido, Estacionamiento y garage, Reductores de velocidad",
       "class": "",
       "seccion": "planeamiento_urbano",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/planeamiento_urbano/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/planeamiento_urbano/wms"
     },
     {
       "type": "wmslayer",
-      "peso": 180,
+      "peso": 190,
       "nombre": "Zona de restricción y exclusión de agroquimicos",
       "short_abstract": "Zona de restricción y exclusión de agroquimicos",
       "class": "",
       "seccion": "resticcion_exclusion_agroquimicos",
       "servicio": "wms",
       "version": "1.3.0",
-      "host": "https://mapas.lasflores.net.ar/geoserver/restriccion_exclusion_agroquimicos/wms"
+      "host": "https://geo.lasflores.net.ar/geoserver/restriccion_exclusion_agroquimicos/wms"
     }
   ],
   "template": "ign-geoportal-basic"
 }
+
 
 
